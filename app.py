@@ -5,8 +5,7 @@ from streamlit_drawable_canvas import st_canvas
 from PIL import Image
 
 # Load trained model
-model = tf.keras.models.load_model("model/mnist_model.h5")
-
+model = tf.keras.models.load_model("mnist_model.h5")
 # App title
 st.title("Handwritten Digit Recognition")
 
